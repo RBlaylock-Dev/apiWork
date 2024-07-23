@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>API Work</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="api-section">
+        <!-- Random Dog Generator -->
+        <div class="api-content">
+            <div class="card-body text-center">
+                <h5 class="card-title">Random Dog Generator</h5>
+                <button id="dogButton" class="btn btn-primary mb-3">Get Random Dog</button>
+                <img id="dogImage" src="" class="card-img-bottom" alt="Random Dog Image">
+            </div>
+        </div>
+        <!-- Weather App -->
+        <div class="api-section">
+            <div class="card-body text-center">
+                <h5 class="card-title">Weather App</h5>
+                <input type="text" id="cityInput" class="form-control mb-3" placeholder="Enter city name">
+                <button id="weatherButton" class="btn btn-primary mb-3">Get Weather</button>
+                <div id="api-content">
+                    <p id="temperature"></p>
+                    <p id="wind"></p>
+                    <p id="description"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Include jQuery (optional) and Bootstrap JS for convenience -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!-- Include custom JavaScript -->
+    <script src="main.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
